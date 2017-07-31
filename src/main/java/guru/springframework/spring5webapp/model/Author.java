@@ -8,6 +8,7 @@ import java.util.Set;
  * Created by jt on 5/16/17.
  */
 @Entity
+@Table(name = "author")
 public class Author {
 
     @Id
